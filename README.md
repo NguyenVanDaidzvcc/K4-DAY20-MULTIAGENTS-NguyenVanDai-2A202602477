@@ -1,5 +1,13 @@
 # Self evolving Agentic
 
+## Bài thực hiện — Nguyễn Văn Đại (2A202602477)
+
+- [Báo cáo thực nghiệm](report/REPORT.md)
+- [Bảng kết quả](report/table.md)
+- [Kết quả kiểm thử](report/test-results.txt)
+
+Báo cáo sử dụng 6 lần chạy learning mới nhất. Chưa có kết quả subagents hoặc đánh giá sau đóng băng; các hạn chế được ghi rõ trong báo cáo.
+
 Lab về bộ khung điều khiển tác tử (Agent Harness) với Deep Agents, tác tử tự tiến hóa (Self-Evolving Agent) và đa tác tử (Multi-Agent).
 
 Hình thức: thực hành cá nhân hoặc nhóm 2 đến 3 sinh viên. Ngôn ngữ lập trình: Python 3.11 trở lên.
