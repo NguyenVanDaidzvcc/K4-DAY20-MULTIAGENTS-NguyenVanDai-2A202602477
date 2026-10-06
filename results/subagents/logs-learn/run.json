@@ -1,0 +1,69 @@
+{
+  "task": "logs-learn",
+  "condition": "subagents",
+  "role": "learn",
+  "error": "GraphRecursionError: Recursion limit of 40 reached without hitting a stop condition. You can increase the limit by setting the `recursion_limit` config key.\nFor troubleshooting, visit: https://docs.langchain.com/oss/python/langgraph/errors/GRAPH_RECURSION_LIMIT",
+  "timestamp": "2026-10-06T13:54:42.658557+00:00",
+  "skills_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "seconds": 37.2,
+  "tokens": {
+    "input": 158974,
+    "output": 2685,
+    "total": 161659
+  },
+  "tool_calls": 20,
+  "subagent_calls": 0,
+  "skills_read": 0,
+  "skills_modified": false,
+  "final_message": "",
+  "score": 0.6666666666666666,
+  "passed": 6,
+  "total": 9,
+  "checks": [
+    {
+      "name": "valid_structure",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "entry_count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "timestamps_utc",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "exception_fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "repeat_counts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "counts_by_service",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "rule_service_names",
+      "passed": false,
+      "detail": "RULE: service names in the output are lower-case with '-' replaced by '_' (payment-service -> payment_service)."
+    },
+    {
+      "name": "rule_sorted_errors",
+      "passed": false,
+      "detail": "RULE: `errors` is sorted by service, then by timestamp_utc, ascending."
+    },
+    {
+      "name": "rule_schema_header",
+      "passed": false,
+      "detail": "RULE: the top-level object has \"schema_version\": 2 and \"generated_by\": \"log-triage\"."
+    }
+  ]
+}
